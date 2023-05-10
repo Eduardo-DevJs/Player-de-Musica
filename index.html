@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="player">
+      <h2 data-musica='nomeMusica'>Nome da musica</h2>
+      <span data-musica='artista'>Nome Artista</span>
+      <div class="buttons">
+        <i data-botao="anterior" class="fas fa-step-backward "></i>
+        <i data-botao="play" class="fas fa-play-circle"></i>
+        <i data-botao="pause" class="fas fa-pause-circle pause"></i>
+        <i data-botao="proximo" class="fas fa-step-forward setas proximo"></i>
+      </div>
+      <div class="barra">
+        <progress  value="0" max="100"></progress>
+        <div class="percursor"></div>
+      </div>
+      <div class="tempo">
+        <p class="inicio">00:00</p>
+        <p class="final">00:00</p>
+      </div>
+    </div>
+  </div>
+  <audio src></audio>
+  
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/d3300bf99f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
